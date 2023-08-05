@@ -27,6 +27,13 @@ int check_num(char *str)
 	return (1);
 }
 
+/**
+ * main - Print the name of the program
+ * @argc: Count arguments
+ * @argv: Arguments
+ *
+ * Return: Always 0 (Success)
+ */
 
 int main(int argc, char *argv[])
 
@@ -38,7 +45,7 @@ int main(int argc, char *argv[])
 	int sum = 0;
 
 	count = 1;
-	while (count < argc) /*Goes through the array*/
+	while (count < argc) /*Goes through the whole array*/
 	{
 		if (check_num(argv[count]))
 
